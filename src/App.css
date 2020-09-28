@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding:0;
+  
+
+  }
+
+:root {
+  --mainColor: #f57224;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --lightDark: #222;
+}  
+
+.logo  {
+  margin: 5px;
+  padding: 5px;
+  width: 25%;
+  height: 40px;
+  
+}
+.logo img {
+  width: 80%;
+}
+
+.cartCount {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: var(--mainColor);
+  color: var(--whiteColor);
+  border-radius: 50%;
+  line-height: 35px;
+  text-align: center;
+  font-size: 12px;
+}
+/* helpers */
+.container {
+  width: 100%;
+  padding: 0 1px;
+
+}
+.menu {
+  background-color: blue;
+  width: 100%;
+  color: white;
+}
+.menu li {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  
+} 
+ .link {
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+}
+.link:hover {
+text-decoration: underline;
+color: red;
+}
+
+/* Banner style */
+
+header{
+  width: 100%;
+  background: url("./img/banner1.jpg");
+  height: 400px;
+  margin-top: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img {
+  margin: 5px;
+  
+}
+h1 {
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.img li {
+  border: 1px solid whitesmoke;
+  display: inline-block;
+  padding: 20px;
+  color: aqua;
+  text-align: center;
+  font-size: 20px;
+  
+}
+.img b {
+  color: black;
+  font-size: 25;
+}
+
+.product li {
+   display: inline-block;
+   color:rgb(81, 220, 255) ;
+   font-size:20px ;
+   padding: 70px;
+   text-align: center;
+}
+
+.mid {
+  margin: 5px;
+ 
+
+}
+
+.mid li {
+  border: 1px solid whitesmoke;
+  display: inline-block;
+  padding: 20px;
+  color: aqua;
+  text-align: center;
+  font-size: 20px;
+}
+
+.mid  b {
+  color: black;
+  font-size: 25;
+}
+
+.foot {
+  background-color: rgb(238, 238, 238);
+  color: rgb(134, 132, 132);
+  margin: 10px;
+  padding: 25px
+ }
+  
+table {
+  text-align: left;
+  width: 60%;
+  margin: 5px;   
+}
